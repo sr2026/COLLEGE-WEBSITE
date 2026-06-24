@@ -1,0 +1,71 @@
+.admission-admin-container{
+  display:flex;
+}
+
+.admission-admin-content{
+  margin-left:220px;
+  width:calc(100% - 220px);
+
+  padding:30px;
+
+  min-height:100vh;
+
+  background:#f5f7fb;
+}
+
+
+.page-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:25px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  background:white;
+  border-radius:12px;
+  overflow:hidden;
+}
+
+th{
+  background:#0a2f73;
+  color:white;
+  padding:15px;
+}
+
+td{
+  padding:15px;
+  border-bottom:1px solid #e5e7eb;
+}
+
+.action-cell{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.pending{
+  background:#fff4db;
+  color:#f59e0b;
+  padding:6px 12px;
+  border-radius:20px;
+  font-size:14px;
+}
+
+.approved{
+  background:#dcfce7;
+  color:#16a34a;
+  padding:6px 12px;
+  border-radius:20px;
+  font-size:14px;
+}
+
+.rejected{
+  background:#fee2e2;
+  color:#dc2626;
+  padding:6px 12px;
+  border-radius:20px;
+  font-size:14px;
+}

@@ -1,0 +1,58 @@
+.admin-content{
+  margin-left:220px;
+  width:calc(100% - 220px);
+
+  padding:30px;
+
+  min-height:100vh;
+
+  background:#f5f7fb;
+}
+
+.page-title{
+  color:#0a2f73;
+  margin-bottom:25px;
+}
+
+.settings-section{
+  background:white;
+  padding:25px;
+  border-radius:15px;
+  margin-top:25px;
+  box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.settings-section h2{
+  color:#0a2f73;
+  margin-bottom:20px;
+}
+
+.action-buttons{
+  display:flex;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+.system-card{
+  background:white;
+  padding:25px;
+  border-radius:15px;
+  margin-top:25px;
+  box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.system-card h2{
+  color:#0a2f73;
+  margin-bottom:20px;
+}
+
+.info-row{
+  display:flex;
+  justify-content:space-between;
+  padding:12px 0;
+  border-bottom:1px solid #e5e7eb;
+}
+
+.info-row:last-child{
+  border-bottom:none;
+}

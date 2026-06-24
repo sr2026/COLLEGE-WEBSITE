@@ -1,0 +1,64 @@
+.about {
+  padding: 60px 8%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background: linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)
+    ),
+    url("../../../assets/college building.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+}
+
+.about h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.about-text {
+  max-width: 800px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  color: #f1f1f1;
+}
+
+.box {
+  background: rgba(255,255,255,0.15);
+  
+
+  padding: 25px;
+  border-radius: 10px;
+
+  width: 350px;
+  corner-block-end-shape: ellipse(50% 50%);
+  color: rgb(255, 255, 255);
+}
+
+.box h2 {
+  color: #ffffff;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(8px);
+
+  padding: 20px;
+  border-radius: 10px;
+
+  width: 220px;
+
+  color: white;
+}

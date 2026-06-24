@@ -1,0 +1,57 @@
+.custom-btn{
+  min-width:110px;
+
+  height:42px;
+
+  padding:0 20px;
+
+  border:none;
+
+  border-radius:8px;
+
+  background:#2563eb;
+
+  color:white;
+
+  cursor:pointer;
+
+  font-size:15px;
+
+  font-weight:500;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  transition:0.3s;
+}
+
+.custom-btn:hover{
+  background:#1d4ed8;
+}
+
+.btn-green{
+  background:#22c55e;
+}
+
+.btn-green:hover{
+  background:#16a34a;
+}
+
+.btn-red{
+  background:#ef4444;
+}
+
+.btn-red:hover{
+  background:#dc2626;
+}
+
+.btn-orange{
+  background:#f59e0b;
+}
+
+.btn-orange:hover{
+  background:#d97706;
+}

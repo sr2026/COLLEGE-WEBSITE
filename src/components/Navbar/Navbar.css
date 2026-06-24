@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 30px;
+
+  background-color: #0037ff;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #19439f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

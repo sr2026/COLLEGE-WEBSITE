@@ -1,0 +1,41 @@
+.faculty-page {
+  padding: 60px 8%;
+  min-height: 100vh;
+
+  background: linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)
+    ),
+  url("../../../assets/college%20building.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+}
+
+.faculty-page h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faculty-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.faculty-card {
+  width: 280px;
+
+  background: rgba(255,255,255,0.15);
+
+  backdrop-filter: blur(8px);
+
+  padding: 25px;
+
+  border-radius: 10px;
+
+  text-align: center;
+}

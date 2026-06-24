@@ -1,0 +1,68 @@
+.contact-page {
+  padding: 60px 8%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background: linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)
+    ),
+    url("../../../assets/college building.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+
+}
+
+.contact-info {
+  width: 400px;
+}
+
+.contact-info h1 {
+  margin-bottom: 20px;
+  color: #0037ff;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  width: 400px;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+     

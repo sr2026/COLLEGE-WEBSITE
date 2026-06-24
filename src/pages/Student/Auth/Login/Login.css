@@ -1,0 +1,102 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)
+    ),
+    url("../../../../assets/college building.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-form {
+  width: 400px;
+
+  background: rgba(255,255,255,0.15);
+
+  backdrop-filter: blur(10px);
+
+  padding: 40px;
+
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.login-form h1 {
+  text-align: center;
+  color: white;
+}
+
+.login-form input {
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 6px;
+
+  outline: none;
+
+  font-size: 1rem;
+}
+
+.error{
+  color: #000000 !important;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: -10px;
+  margin-bottom: 5px;
+  text-align: left;
+  display: block;
+}
+
+.role-selector {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.role-selector button {
+  padding: 10px;
+  border: 0;
+  border-radius: 6px;
+  color: white;
+  background: transparent;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.role-selector button.active {
+  color: #0a2f73;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.signup-link{
+  text-align:center;
+  margin-top:15px;
+  color: #ffff;
+
+}
+
+.signup-link span{
+  color:#60a5fa;
+  font-weight:600;
+  cursor:pointer;
+}
+
+.signup-link span:hover{
+  text-decoration:underline;
+}

@@ -1,0 +1,83 @@
+.signup-page {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.6)
+    ),
+    url("../../../../assets/college building.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.signup-form {
+  width: 420px;
+
+  background: rgba(255,255,255,0.15);
+
+  backdrop-filter: blur(10px);
+
+  padding: 40px;
+
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.signup-form h1 {
+  text-align: center;
+  color: white;
+}
+
+.signup-form input {
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 6px;
+
+  outline: none;
+
+  font-size: 1rem;
+}
+
+.error {
+  color: #000000;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  text-align: left;
+
+  margin-top: -10px;
+
+  margin-bottom: 5px;
+}
+
+.login-link {
+  text-align: center;
+
+  color: white;
+}
+
+.login-link span {
+  color: #60a5fa;
+
+  cursor: pointer;
+
+  font-weight: 600;
+}
+
+.login-link span:hover {
+  text-decoration: underline;
+}
